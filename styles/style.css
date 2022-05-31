@@ -1,0 +1,20 @@
+.container {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.header, .hero, .footer {
+    display: flex;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header p {
+    margin-left: 50px;
+}
+
+#first {
+    flex-grow: 2;
+}
