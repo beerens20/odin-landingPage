@@ -35,11 +35,6 @@
     height: 200px;
 }
 
-/* #hero_2 {
-    width: 400px;
-    height: 200px;
-} */
-
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -58,4 +53,38 @@
     font-size: 16px;
     padding: 10px 30px;
     border: 0px;
+}
+
+.section1 {
+    background: white;
+    margin: 50px;
+    height: 400px;
+}
+
+.section1 #section1header {
+    background: white;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .boxes {
+    display:flex;
+    padding: 10px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 75px
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    outline: 4px solid #3882F6;
+    border-radius: 10px;;
+}
+
+.box figcaption {
+    width: 200px;
+    color: grey;
+    text-align: center;
 }
