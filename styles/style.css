@@ -3,8 +3,9 @@
     margin-left: 150px;
 }
 
-.header, .hero, .footer {
+.header, .footer {
     display: flex;
+    flex: auto;
     background: #1F2937;
     color: #F9FAF8;
     padding-left: 100px;
@@ -17,4 +18,44 @@
 
 #first {
     flex-grow: 2;
+}
+
+.hero {
+    display: flex;
+    flex: auto;
+    background: #1F2937;
+    justify-content: center;
+    gap: 50px;
+    height: 400px;
+    padding-top: 100px
+}
+
+#hero_1 {
+    width: 500px;
+    height: 200px;
+}
+
+/* #hero_2 {
+    width: 400px;
+    height: 200px;
+} */
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 0px;
 }
